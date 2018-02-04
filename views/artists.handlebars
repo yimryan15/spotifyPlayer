@@ -1,0 +1,12 @@
+<audio controls>
+  <source src="{{playbackUrl}}" type="audio/mpeg">
+</audio>
+
+{{#each tracks}}
+<div class='container'>
+  <h1>{{artistName}}</h1>
+  <h2 class="track-name" data-id="{{trackId}}">{{trackName}}</h2>
+  <h3>{{albumName}}</h3>
+  <img id="image" src="{{albumUrl}}" alt="image">
+</div>
+{{/each}}

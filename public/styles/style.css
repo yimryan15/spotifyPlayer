@@ -1,0 +1,14 @@
+/*body {
+  background-color: cornflowerblue;
+}*/
+
+.container {
+  border: solid grey 10px;
+  margin: -10px;
+  display: table;
+  background-color: cornflowerblue;
+}
+
+#image {
+  width: 25%;
+}
